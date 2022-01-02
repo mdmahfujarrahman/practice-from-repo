@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.prot{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: cornsilk;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.body{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+.body h1{
+    font-size: 3.5rem;
+    color: teal;
+    margin-bottom: 10px;
+}
+.body p{
+    color: teal;
+}
+span{
+    color: tomato;
+}
+.body a{
+    background: turquoise;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s; left 1s;
+}
+.img:hover .shape{
+    left: 40px;
+}
+.img:hover .mahfuj{
+    top: 40px;
+}
+.body2{
+    margin-left: 55%;
+    margin-top: 5%;
+}

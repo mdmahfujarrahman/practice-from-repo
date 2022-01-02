@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahfuj ahmed</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display:flex;
+            justify-content:center;
+            height: 100vh;
+            align-items: center;
+            background-color: darkolivegreen;
+        }
+        h1{
+            margin: 10px;
+            padding: 30px 0 20px 0px;
+            color: #FA7B62;
+            
+        }
+        .register{
+            text-align: center;
+            background-color: #12867C;
+            width: 400px;
+            border-radius: 20px;
+        }
+        .list{
+            font-size: 25Px;
+            margin: auto;
+            padding: 10px;
+            width: 80%;
+        }
+        .list p{
+            font-size: 15px;
+        }
+        .list input{
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .list input:hover{
+            background-color: darkkhaki;
+        }
+        .sub{
+            padding: 10px;
+        }
+        .sub button{
+            padding: 15px;
+            font-size: 15px;
+            font-weight: bold;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .sub button:hover{
+            color: #7C34E4;
+            background-color: darkcyan;
+        }
+        .gender{
+            font-size: 15px;
+            display: inline-flex;  
+            width: 100%;
+        }
+        .gender input{
+            width: auto;
+            margin: 0 auto;
+        }
+        @media screen and (max-width:960px) {
+
+          .register{
+              width:100%;
+          }
+            
+        } 
+     </style>
+</head>
+<body>
+    <form class="register">
+            <h1>Register Form</h1>
+            <div class="list">
+                <p><input type="text" placeholder="First Name"></p>
+                <p><input type="text" placeholder="Second Name"></p>
+                <p><input type="email" placeholder="Email" ></p>
+                <p><input type="password" placeholder="Password" ></p>
+                <p><input type="date"></p>
+
+                <div class="gender">
+                    <legend>Select Your Gender</legend>
+                    <input type="radio" name="gender" value="male"><label>Male</label>
+                    <input type="radio" name="gender" value="female"><label>Female</label>
+                </div>
+              
+                <div class="sub">
+                    <button type="submit">Subit</button>
+                    <button type="reset">Clear</button>
+                </div>
+
+            </div>
+    </form>
+</body>
+</html>
